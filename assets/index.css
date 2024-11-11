@@ -1,0 +1,12 @@
+html {
+    font-family: 'monospace', "helvetica", system-ui;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100vh;
+    background-color: #fff;
+    min-width: 500px;
+}

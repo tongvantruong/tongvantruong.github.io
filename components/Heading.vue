@@ -1,0 +1,20 @@
+<template>
+  <h2 class="flex flex-row flex-nowrap items-center">
+    <span class="block flex-grow border-t border-gray-800"></span>
+    <span
+      class="mx-4 block flex-none rounded bg-gray-800 px-4 py-2.5 text-xl font-medium leading-none text-white"
+    >
+      {{ text }}
+    </span>
+    <span class="block flex-grow border-t border-gray-800"></span>
+  </h2>
+</template>
+
+<script setup lang="ts">
+defineProps({
+  text: {
+    type: String,
+    required: true,
+  },
+});
+</script>
