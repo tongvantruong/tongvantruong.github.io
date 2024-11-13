@@ -28,7 +28,7 @@ export function useProject() {
     {
       name: "OMNISEGMENT",
       description:
-        "a Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement front new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
+        "a Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
       liveLink: "https://www.bebit-tech.com/en/omnisegment",
       image: "os.png",
       skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
