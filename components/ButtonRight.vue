@@ -2,9 +2,9 @@
   <a
     :href="href"
     target="_blank"
-    class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-red-400 px-6 py-1.5 text-white hover:bg-red-500 focus:ring-4 focus:ring-blue-300"
+    class="group relative inline-flex items-center justify-center overflow-hidden rounded-md bg-black px-6 py-1.5 text-white"
   >
-    <span class="z-40">{{ text }}</span>
+    <span>{{ text }}</span>
     <svg
       class="z-40 -mr-1 ml-2 h-3 w-3 transition-all duration-300 group-hover:translate-x-1"
       fill="currentColor"

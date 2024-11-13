@@ -18,5 +18,6 @@ const topBarItems = [
   { label: "Home", to: "/" },
   { label: "About", to: "#about" },
   { label: "Projects", to: "#project" },
+  { label: "Contact", to: "#contact" },
 ];
 </script>

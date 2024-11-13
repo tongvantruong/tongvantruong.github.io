@@ -1,6 +1,6 @@
 <template>
   <footer class="z-10 flex flex-col items-center justify-center border-t pb-2">
-    <NuxtLink to="#home" class="relative -top-2 rounded-lg bg-gray-500 pt-2">
+    <NuxtLink to="#home" class="relative -top-2 rounded-lg bg-black pt-2">
       <svg
         class="h-6 w-7 animate-bounce"
         viewBox="0 0 24 24"
@@ -12,7 +12,7 @@
       </svg>
     </NuxtLink>
     <div class="flex gap-4 pb-2">
-      <NuxtLink to="https://github.com/tongvantruong" tooltip="Github">
+      <NuxtLink to="https://github.com/tongvantruong" target="_blank">
         <svg
           class="h-6 w-6 hover:scale-110"
           fill="#000000"
@@ -43,7 +43,10 @@
           </g>
         </svg>
       </NuxtLink>
-      <NuxtLink to="https://www.linkedin.com/in/truongtong-jay/">
+      <NuxtLink
+        to="https://www.linkedin.com/in/truongtong-jay/"
+        target="_blank"
+      >
         <svg
           class="h-6 w-6 hover:scale-110"
           fill="#000000"

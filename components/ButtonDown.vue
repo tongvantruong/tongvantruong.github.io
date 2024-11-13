@@ -1,9 +1,9 @@
 <template>
   <a
     :href="href"
-    class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-red-500 px-8 py-1.5 text-2xl text-white focus:ring-4 focus:ring-blue-300"
+    class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-black px-8 py-1.5 text-2xl text-white"
   >
-    <span class="z-40">{{ text }}</span>
+    <span>{{ text }}</span>
     <svg
       class="z-40 -mr-1 ml-2 h-6 w-6 animate-bounce"
       fill="#fff"
