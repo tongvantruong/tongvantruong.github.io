@@ -79,6 +79,7 @@
             :repoLink="project.repoLink"
             :image="project.image"
             :isLtr="index % 2 == 0"
+            :skills="project.skills"
           />
         </div>
       </div>

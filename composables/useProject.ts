@@ -8,6 +8,30 @@ export function useProject() {
         "a Japanese cloud service that captures user behaviors in web apps or mobile phones to help clients analyze and improve UI/UX. With almost 5 years, mainly working in front end code helped me gain a lot of knowledge about Vue3 and Composition API, VueX for state management, Vue Router, Storybook, TypeScript Advanced Utility Types as well as latest JavaScript build tools and Node Package Manager like Vite, pnpm. Beside that, I have also experienced with Redash, Terraform, Micro Services, Docker Compose, Kubernetes and some AWS services such as AWS CloudFront, API Gateway, Lambda function",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/#MOVIEW",
       image: "usergram.jpg",
+      skills: [
+        "Vue3",
+        "Composition API",
+        "Vue2",
+        "TypeScript",
+        "CSS",
+        "SCSS",
+        "Git",
+        "CI/CD",
+        "Vite",
+        "Storybook",
+        "Cypress",
+        "Jest",
+        "TDD",
+        "Figma",
+      ],
+    },
+    {
+      name: "OMNISEGMENT",
+      description:
+        "a Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement front new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
+      liveLink: "https://www.bebit-tech.com/en/omnisegment",
+      image: "os.png",
+      skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
     },
     {
       name: "NuxtJS & TailwindCSS Portfolio",
@@ -16,6 +40,7 @@ export function useProject() {
       liveLink: "https://tongvantruong.github.io/",
       repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
+      skills: ["Nuxt3", "TailwindCSS", "Vite", "VueJS", "Github Pages"],
     },
     {
       name: "TOEIC Practice App",
@@ -26,6 +51,7 @@ export function useProject() {
       androidLink:
         "https://play.google.com/store/apps/details?id=com.tvt.toeictest.newformat2019",
       image: "toeic-practice.jpg",
+      skills: ["Kotlin", "Swift"],
     },
     {
       name: "TOEIC Vocabulary App",
@@ -35,6 +61,7 @@ export function useProject() {
         "https://apps.apple.com/vn/app/new-vocabulary-for-toeic-test/id1475873881?platform=iphone",
       androidLink: "--DEAD--",
       image: "toeic-voca.jpg",
+      skills: ["Kotlin", "Swift", "JavaScript", "Heroku"],
     },
     {
       name: "Crack The Code App",
@@ -45,6 +72,7 @@ export function useProject() {
       androidLink:
         "https://play.google.com/store/apps/details?id=com.tvt.crackthecode",
       image: "crack-the-code.jpg",
+      skills: ["Flutter", "Mobile Development"],
     },
     {
       name: "Video Downloader and Editor",
@@ -52,6 +80,7 @@ export function useProject() {
         "a private web tool allows me to download videos from a chinese Youtube site, bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
+      skills: ["NodeJS", "Express", "EJS", "SSR"],
     },
     {
       name: "Isetan KL Rewards App",
@@ -59,6 +88,16 @@ export function useProject() {
         "a Malaysian mobile app and system helps customers collect points on their purchases and convert into e-coupon for a seamless shopping experience. I have had a great time to build and maintain the beautiful Android and IOS app from the draft requirements of the Founder and given Sketch using Kotlin, Swift; as well as building Rest API, CMS, Landing page",
       liveLink: "https://www.isetankl.com.my/isetan-app/",
       image: "isetan.png",
+      skills: [
+        "Kotlin",
+        "Swift",
+        "Sketch",
+        "Html",
+        "CSS",
+        "Rest API",
+        "CMS",
+        "Ruby on Rails",
+      ],
     },
     {
       name: "The Social Rewards App",
@@ -68,12 +107,22 @@ export function useProject() {
       androidLink:
         "https://play.google.com/store/apps/details?id=asia.tsunago.thesocial",
       image: "social.png",
+      skills: ["Java", "Swift", "Sketch", "Rest API", "CMS", "Ruby on Rails"],
     },
     {
       name: "AI solution for retails startup",
       description:
         "an AI solution to capture customer's faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Lead role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
       image: "tsunago.png",
+      skills: [
+        "VueJS",
+        "AI",
+        "Face Recognition",
+        "Image Classification",
+        "Python",
+        "C++",
+        "Jetson Nano",
+      ],
     },
     {
       name: "Axon Ivy Designer",
@@ -81,6 +130,7 @@ export function useProject() {
         "a state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
       image: "ivy-designer.png",
       liveLink: "https://developer.axonivy.com/",
+      skills: ["Java Core", "Java EE", "Html"],
     },
     {
       name: "Fintech Projects for Swiss Banks",
@@ -89,6 +139,7 @@ export function useProject() {
       image: "postfinance.png",
       liveLink:
         "https://www.postfinance.ch/en/private/paying-saving/e-banking-apps/e-finance.html",
+      skills: ["Html", "Css", "JavaScript", "Bootstrap", "Rest API", "Fintech"],
     },
   ];
 

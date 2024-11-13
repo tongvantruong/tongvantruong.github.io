@@ -6,4 +6,5 @@ export type Project = {
   image?: string;
   iosLink?: string;
   androidLink?: string;
+  skills?: string[];
 };

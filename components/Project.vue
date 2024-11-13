@@ -30,7 +30,18 @@
         {{ description }}
       </p>
       <div
-        class="mt-2 inline-flex items-start justify-center gap-4 md:flex-col"
+        v-if="skills"
+        class="mt-1 flex flex-wrap justify-center gap-1 md:justify-start"
+      >
+        <span
+          class="rounded-e bg-slate-500 px-1 text-sm text-white"
+          v-for="(skill, index) in skills"
+          :key="index"
+          >{{ skill }}</span
+        >
+      </div>
+      <div
+        class="mt-4 inline-flex items-start justify-center gap-4 md:flex-col"
       >
         <ButtonIos v-if="iosLink" :href="iosLink" />
         <ButtonAndroid v-if="androidLink" :href="androidLink" />
@@ -76,6 +87,10 @@ const props = defineProps({
   isLtr: {
     type: Boolean,
     default: true,
+  },
+  skills: {
+    type: Array as PropType<Array<String>>,
+    required: false,
   },
 });
 </script>
