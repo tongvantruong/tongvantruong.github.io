@@ -13,8 +13,8 @@ export function useProject() {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
         "A responsive web app which showcases my experience. By taking the advantages of well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'compasables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
-      liveLink: "https://tvtroid.github.io",
-      repoLink: "https://tvtroid.github.io",
+      liveLink: "https://tongvantruong.github.io/",
+      repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
     },
     {
