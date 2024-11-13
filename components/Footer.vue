@@ -67,7 +67,7 @@
         </svg>
       </NuxtLink>
     </div>
-    <span>Truong Tong @{{ currentYear }}</span>
+    <span class="text-gray-500">Truong Tong @{{ currentYear }}</span>
   </footer>
 </template>
 <script setup lang="ts">

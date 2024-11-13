@@ -49,7 +49,7 @@ export function useProject() {
     {
       name: "Video Downloader and Editor",
       description:
-        "a private web tool allows me to download videos from a chinese Youtube site, Bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
+        "a private web tool allows me to download videos from a chinese Youtube site, bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
     },
@@ -64,7 +64,9 @@ export function useProject() {
       name: "The Social Rewards App",
       description:
         "a mobile app and system allows customers Earn high value points and get access to exclusive member daily rewards, birthday rewards, stamp cards and promotions. I have worked as a Fullstack Technical Lead and Project Manager to build and maintain the Android and IOS app, CSM, Cron Job on Heroku",
-      liveLink: "https://thesocialgroup.com.my/rewards",
+      iosLink: "https://apps.apple.com/my/app/the-social-rewards/id1219993641",
+      androidLink:
+        "https://play.google.com/store/apps/details?id=asia.tsunago.thesocial",
       image: "social.png",
     },
     {
@@ -72,6 +74,21 @@ export function useProject() {
       description:
         "an AI solution to capture customer's faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Lead role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
       image: "tsunago.png",
+    },
+    {
+      name: "Axon Ivy Designer",
+      description:
+        "a state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
+      image: "ivy-designer.png",
+      liveLink: "https://developer.axonivy.com/",
+    },
+    {
+      name: "Fintech Projects for Swiss Banks",
+      description:
+        "Built Self Onboarding Process of several Swiss banks such as PostFinance, ABS. Integrated KYC as a third party API into web and mobile app for verification process of banking.",
+      image: "postfinance.png",
+      liveLink:
+        "https://www.postfinance.ch/en/private/paying-saving/e-banking-apps/e-finance.html",
     },
   ];
 
