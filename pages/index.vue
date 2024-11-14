@@ -190,6 +190,21 @@
 
 <script setup lang="ts">
 import { ButtonDown, LazyHeading, NuxtLink, Tooltip } from "#components";
+const title = ref("Truong Tong - Sr. Front End Engineer");
+const description = ref(
+  "Front End Engineer Portfolio built with Nuxt and TailwindCSS",
+);
+
+// This will be reactive when you change title/description above
+useHead({
+  title,
+  meta: [
+    {
+      name: "description",
+      content: description,
+    },
+  ],
+});
 
 definePageMeta({
   layout: "home",
