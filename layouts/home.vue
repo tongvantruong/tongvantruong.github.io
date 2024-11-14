@@ -8,7 +8,7 @@
         <TopBar />
       </header>
       <main class="flex flex-auto dark:bg-black dark:text-white"><slot /></main>
-      <footer id="contact">
+      <footer>
         <Footer />
       </footer>
     </div>

@@ -4,10 +4,10 @@
     :class="{ 'md:flex-row-reverse': !isLtr }"
   >
     <div
-      class="w-full bg-gray-100 md:w-2/3 dark:bg-black"
+      class="w-full bg-gray-100 dark:bg-black md:w-2/3"
       :class="{ 'md:relative md:-left-16': !isLtr }"
     >
-      <div class="relative hover:z-40 hover:scale-105">
+      <div class="relative hover:z-30 hover:scale-105">
         <img v-if="image" :src="image" :alt="image" />
         <img v-else src="/assets/images/unknown.jpg" alt="unknown" />
         <div
@@ -22,7 +22,7 @@
       </div>
     </div>
     <div
-      class="relative -top-14 z-10 hover:z-50 md:top-0 md:w-1/3 md:text-start"
+      class="relative -top-14 z-10 hover:z-40 md:top-0 md:w-1/3 md:text-start"
       :class="{ 'md:-left-24': isLtr, 'md:-right-24': !isLtr }"
     >
       <h2 class="text-3xl">{{ name }}</h2>
