@@ -9,7 +9,7 @@
     >
       <div class="relative hover:z-30 hover:scale-105">
         <img v-if="image" :src="image" :alt="image" />
-        <img v-else src="/assets/images/unknown.jpg" alt="unknown" />
+        <img v-else src="/assets/images/soon.png" alt="Coming Soon" />
         <div
           class="absolute top-0 h-full w-full bg-gradient-to-b from-transparent to-gray-100 hover:opacity-0 dark:to-gray-700"
           :class="{
