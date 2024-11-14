@@ -2,7 +2,7 @@
   <a
     :href="href"
     target="_blank"
-    class="group relative inline-flex items-center justify-center overflow-hidden rounded-md bg-black px-6 py-1.5 text-white"
+    class="group relative inline-flex items-center justify-center overflow-hidden rounded-md border border-gray-500 bg-black px-6 py-1.5 text-white shadow-md dark:shadow-gray-600"
   >
     <span>{{ text }}</span>
     <svg

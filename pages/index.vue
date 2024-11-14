@@ -1,12 +1,21 @@
 <template>
   <main
-    class="relative flex flex-col items-center justify-center bg-gray-100 text-center"
+    class="relative flex flex-col items-center justify-center text-center dark:bg-black"
   >
     <section
       id="home"
-      class="hero flex min-h-screen w-full flex-col items-center justify-center px-4 py-20 text-center md:px-12"
+      class="relative flex min-h-screen w-full flex-col items-center justify-center px-4 py-20 text-center md:px-12"
     >
-      <h2 class="text-4xl">
+      <img
+        id="bg-image"
+        class="absolute h-full w-full"
+        src="/assets/images/bg.jpg"
+        alt="background image"
+      />
+      <div
+        class="pointer-events-none absolute h-full w-full bg-gray-200 bg-opacity-95 dark:bg-gray-800 dark:bg-opacity-95"
+      />
+      <h2 class="z-10 text-4xl">
         Hello, I'm
         <span
           class="to bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text font-extrabold tracking-wide text-transparent"
@@ -15,7 +24,7 @@
         <br />-<br />
         Sr. Front End Engineer
       </h2>
-      <h1 class="text-4xl md:text-6xl">
+      <h1 class="z-10 text-4xl md:text-6xl">
         with
         <span
           class="to bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text font-extrabold tracking-wide text-transparent"
@@ -27,7 +36,7 @@
       </h1>
       <ButtonDown
         id="main-button"
-        class="mt-4 md:mt-10"
+        class="z-30 mt-4 md:mt-10"
         text="View my work"
         href="#about"
       />
@@ -95,7 +104,7 @@ definePageMeta({
 });
 
 onMounted(() => {
-  magnify("home", 1.5);
+  magnify("bg-image", 1.5);
 });
 
 const { projects } = useProject();
@@ -105,16 +114,6 @@ useScroll();
 </script>
 
 <style>
-.hero {
-  background-image: linear-gradient(
-      rgba(243, 244, 246, 0.95) 100%,
-      rgba(0, 0, 0, 0) 0%
-    ),
-    url("/assets/images/bg.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
 .img-magnifier-glass {
   position: absolute;
   border: 3px solid #000;
@@ -123,5 +122,6 @@ useScroll();
   /*Set the size of the magnifier glass:*/
   width: 100px;
   height: 100px;
+  z-index: 20;
 }
 </style>

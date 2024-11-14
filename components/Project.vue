@@ -4,18 +4,18 @@
     :class="{ 'md:flex-row-reverse': !isLtr }"
   >
     <div
-      class="w-full bg-gray-100 md:w-2/3"
+      class="w-full bg-gray-100 md:w-2/3 dark:bg-black"
       :class="{ 'md:relative md:-left-16': !isLtr }"
     >
       <div class="relative hover:z-40 hover:scale-105">
         <img v-if="image" :src="image" :alt="image" />
         <img v-else src="/assets/images/unknown.jpg" alt="unknown" />
         <div
-          class="absolute top-0 h-full w-full bg-gradient-to-b from-transparent to-gray-100 hover:opacity-0"
+          class="absolute top-0 h-full w-full bg-gradient-to-b from-transparent to-gray-100 hover:opacity-0 dark:to-gray-700"
           :class="{
-            'md:right-0 md:bg-gradient-to-l md:from-transparent md:to-gray-100':
+            'md:right-0 md:bg-gradient-to-l md:from-transparent md:to-gray-100 dark:md:to-gray-700':
               !isLtr,
-            'md:left-0 md:bg-gradient-to-r md:from-transparent md:to-gray-100':
+            'md:left-0 md:bg-gradient-to-r md:from-transparent md:to-gray-100 dark:md:to-gray-700':
               isLtr,
           }"
         ></div>

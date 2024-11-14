@@ -1,18 +1,20 @@
 <template>
   <nav class="flex h-10 justify-end">
     <ul
-      class="mr-4 flex h-full items-center gap-4 rounded-full border bg-slate-100 bg-opacity-90 p-5"
+      class="mr-4 flex h-full items-center gap-4 rounded-full border-[0.5px] bg-slate-100 bg-opacity-90 py-5 pl-5 pr-2 dark:border-none dark:bg-slate-900 dark:bg-opacity-80 dark:text-gray-200"
     >
       <li v-for="item in topBarItems" :key="item.label">
         <TopBarItem :label="item.label" :to="item.to" />
       </li>
-      <li><div>Dark</div></li>
+      <li class="pl-2">
+        <ButtonDarkMode />
+      </li>
     </ul>
   </nav>
 </template>
 
 <script setup lang="ts">
-import { TopBarItem } from "#components";
+import { ButtonDarkMode, TopBarItem } from "#components";
 
 const topBarItems = [
   { label: "Home", to: "/" },

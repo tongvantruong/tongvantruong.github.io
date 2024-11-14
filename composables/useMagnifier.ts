@@ -1,30 +1,25 @@
 export function useMagnifier() {
   function magnify(imgID: string, zoom: number) {
-    let img: HTMLElement;
+    let img: HTMLImageElement;
     let glass: HTMLElement;
     let w: number, h: number, bw: number;
-    img = document.getElementById(imgID) as HTMLElement;
+    img = document.getElementById(imgID) as HTMLImageElement;
 
     if (!img) return;
+    const bgImageUrl = img.src;
 
     /* Create magnifier glass: */
     glass = document.createElement("DIV");
+    glass.style.left = "-200px";
     glass.setAttribute("class", "img-magnifier-glass");
 
     /* Insert magnifier glass: */
     img.parentElement?.insertBefore(glass, img);
-
-    const bgImageUrl = window
-      .getComputedStyle(img)
-      .backgroundImage.split(" ")
-      .slice(-1)[0];
-
-    const bgImageWidth = img.getBoundingClientRect().width;
-    const bgImageHeight = img.getBoundingClientRect().height;
+    const bgImageWidth = img.width;
+    const bgImageHeight = img.height;
 
     /* Set background properties for the magnifier glass: */
-    // glass.style.backgroundImage = bgImageUrl;
-    glass.style.backgroundImage = bgImageUrl;
+    glass.style.backgroundImage = "url('" + bgImageUrl + "')";
     glass.style.backgroundRepeat = "no-repeat";
     glass.style.backgroundSize =
       bgImageWidth * zoom + "px " + bgImageHeight * zoom + "px";
@@ -35,15 +30,15 @@ export function useMagnifier() {
     const button: HTMLElement = document.getElementById(
       "main-button",
     ) as HTMLElement;
-    button.addEventListener("mouseenter", removeMagnifier);
+    button.addEventListener("mouseover", removeMagnifier);
     button.addEventListener("mouseleave", addMagnifier);
 
     function removeMagnifier() {
-      img.parentElement?.removeChild(glass);
+      glass?.parentElement?.removeChild(glass);
     }
 
     function addMagnifier() {
-      img.parentElement?.insertBefore(glass, img);
+      img?.parentElement?.insertBefore(glass, img);
     }
 
     /* Execute a function when someone moves the magnifier glass over the image: */

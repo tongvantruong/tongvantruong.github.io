@@ -10,6 +10,6 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-11-09",
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt"],
   css: ["@/assets/index.css"],
 });

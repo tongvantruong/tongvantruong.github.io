@@ -1,12 +1,12 @@
 <template>
   <h2 class="flex flex-row flex-nowrap items-center">
-    <span class="block flex-grow border-t border-gray-400"></span>
+    <span class="block flex-grow border-t-[0.5px] border-gray-400"></span>
     <span
-      class="mx-4 block flex-none rounded bg-gray-400 px-4 py-2.5 text-xl font-medium leading-none text-white"
+      class="mx-4 block flex-none rounded bg-slate-100 px-4 py-2.5 text-xl font-medium leading-none text-black dark:bg-gray-800 dark:text-white"
     >
       {{ text }}
     </span>
-    <span class="block flex-grow border-t border-gray-400"></span>
+    <span class="block flex-grow border-t-[0.5px] border-gray-400"></span>
   </h2>
 </template>
 

@@ -2,7 +2,7 @@
   <div class="group relative">
     <span
       ref="tooltip"
-      class="group-hover:x-50 absolute -top-8 hidden text-nowrap rounded-lg bg-gray-700 px-2 text-gray-200 after:absolute after:-bottom-1 after:left-1/2 after:h-0 after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-700 after:content-[''] group-hover:inline-block"
+      class="group-hover:x-50 absolute -top-8 hidden text-nowrap rounded-lg bg-gray-700 px-2 text-gray-200 after:absolute after:-bottom-1 after:left-1/2 after:h-0 after:w-0 after:-translate-x-1/2 after:rotate-45 after:border-4 after:border-gray-700 after:content-[''] group-hover:inline-block dark:bg-gray-400 dark:after:border-gray-400"
     >
       {{ hoveredText }}
     </span>

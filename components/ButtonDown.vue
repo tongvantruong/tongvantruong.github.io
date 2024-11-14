@@ -1,7 +1,7 @@
 <template>
   <a
     :href="href"
-    class="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-black px-8 py-1.5 text-2xl text-white"
+    class="group relative inline-flex items-center justify-center overflow-hidden rounded-full border border-gray-500 bg-black px-8 py-1.5 text-2xl text-white shadow-lg dark:shadow-gray-600"
   >
     <span>{{ text }}</span>
     <svg

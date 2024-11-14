@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#fff"
-      }
+        primary: "#fff",
+      },
     },
   },
   plugins: [],
-}
-
+  darkMode: "class",
+};

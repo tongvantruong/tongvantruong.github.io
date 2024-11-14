@@ -2,7 +2,7 @@
   <a
     target="_blank"
     @click="onClick"
-    class="group relative w-28 overflow-hidden"
+    class="group relative w-28 overflow-hidden shadow-md dark:shadow-gray-600"
     :class="{
       'cursor-default brightness-50': isAppDead,
       'cursor-pointer': !isAppDead,

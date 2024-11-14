@@ -1,5 +1,9 @@
 <template>
-  <a target="_blank" :href="href" class="group relative w-28 overflow-hidden">
+  <a
+    target="_blank"
+    :href="href"
+    class="group relative w-28 overflow-hidden shadow-md dark:shadow-gray-600"
+  >
     <img
       src="/assets/images/download-app-store.svg"
       :alt="`Download App on App Store`"
