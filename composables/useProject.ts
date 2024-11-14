@@ -66,7 +66,7 @@ export function useProject() {
     {
       name: "Crack The Code App",
       description:
-        "an Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from a limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other players.",
+        "an Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other players.",
       iosLink:
         "https://apps.apple.com/vn/app/crack-the-code-pro/id1510109064?platform=iphone",
       androidLink:
