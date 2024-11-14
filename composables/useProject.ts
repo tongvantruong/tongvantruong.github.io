@@ -92,7 +92,7 @@ export function useProject() {
         "Kotlin",
         "Swift",
         "Sketch",
-        "Html",
+        "HTML",
         "CSS",
         "Rest API",
         "CMS",
@@ -130,7 +130,7 @@ export function useProject() {
         "A state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
       image: "ivy-designer.png",
       liveLink: "https://developer.axonivy.com/",
-      skills: ["Java Core", "Java EE", "Html"],
+      skills: ["Java Core", "Java EE", "HTML"],
     },
     {
       name: "Fintech Projects for Swiss Banks",
@@ -139,7 +139,7 @@ export function useProject() {
       image: "postfinance.png",
       liveLink:
         "https://www.postfinance.ch/en/private/paying-saving/e-banking-apps/e-finance.html",
-      skills: ["Html", "Css", "JavaScript", "Bootstrap", "Rest API", "Fintech"],
+      skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Rest API", "Fintech"],
     },
   ];
 
