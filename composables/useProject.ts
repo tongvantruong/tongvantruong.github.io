@@ -28,7 +28,7 @@ export function useProject() {
     {
       name: "OMNISEGMENT",
       description:
-        "a Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
+        "A Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
       liveLink: "https://www.bebit-tech.com/en/omnisegment",
       image: "os.png",
       skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
@@ -36,7 +36,7 @@ export function useProject() {
     {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
-        "A responsive web app which showcases my experience. By taking the advantages of well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'compasables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
+        "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'compasables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
       liveLink: "https://tongvantruong.github.io/",
       repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
@@ -45,7 +45,7 @@ export function useProject() {
     {
       name: "TOEIC Practice App",
       description:
-        "a mobile app for learning English which was available on both IOS and Android with over 200K downloads. Tech stacks: Swift for IOS, Kotlin for Android",
+        "A mobile app for learning English which was available on both IOS and Android with over 200K downloads. Tech stacks: Swift for IOS, Kotlin for Android",
       iosLink:
         "https://apps.apple.com/vn/app/new-practice-for-toeic-test/id1462727474?platform=iphone",
       androidLink:
@@ -56,7 +56,7 @@ export function useProject() {
     {
       name: "TOEIC Vocabulary App",
       description:
-        "a mobile app for learning English which was available on both IOS and Android with over 20K downloads. In this app, I have created many kinds of game so users can learn by enjoying the games! Other than the mobile's tech stacks, I have used JavaScript to build Flappy Bird and Snack 2D games which will be embedded into mobile apps",
+        "A mobile app for learning English which was available on both IOS and Android with over 20K downloads. In this app, I have created many kinds of games so users can learn by enjoying the games! Other than the mobile's tech stacks, I have used JavaScript to build Flappy Bird and Snack 2D games which will be embedded into mobile apps",
       iosLink:
         "https://apps.apple.com/vn/app/new-vocabulary-for-toeic-test/id1475873881?platform=iphone",
       androidLink: "--DEAD--",
@@ -66,7 +66,7 @@ export function useProject() {
     {
       name: "Crack The Code App",
       description:
-        "an Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other players.",
+        "An Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other people.",
       iosLink:
         "https://apps.apple.com/vn/app/crack-the-code-pro/id1510109064?platform=iphone",
       androidLink:
@@ -77,15 +77,15 @@ export function useProject() {
     {
       name: "Video Downloader and Editor",
       description:
-        "a private web tool allows me to download videos from a chinese Youtube site, bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
+        "A private web tool allows me to download videos from a Chinese video site, bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
-      skills: ["NodeJS", "Express", "EJS", "SSR"],
+      skills: ["NodeJS", "Express", "EJS", "SSR", "ffmpeg"],
     },
     {
       name: "Isetan KL Rewards App",
       description:
-        "a Malaysian mobile app and system helps customers collect points on their purchases and convert into e-coupon for a seamless shopping experience. I have had a great time to build and maintain the beautiful Android and IOS app from the draft requirements of the Founder and given Sketch using Kotlin, Swift; as well as building Rest API, CMS, Landing page",
+        "A Malaysian mobile app and system helps customers collect points on their purchases and convert into e-coupon for a seamless shopping experience. I have had a great time to build and maintain the beautiful Android and IOS app from the draft requirements of the founder and given Sketch using Kotlin, Swift; as well as building Rest API, CMS, Landing page",
       liveLink: "https://www.isetankl.com.my/isetan-app/",
       image: "isetan.png",
       skills: [
@@ -102,7 +102,7 @@ export function useProject() {
     {
       name: "The Social Rewards App",
       description:
-        "a mobile app and system allows customers Earn high value points and get access to exclusive member daily rewards, birthday rewards, stamp cards and promotions. I have worked as a Fullstack Technical Lead and Project Manager to build and maintain the Android and IOS app, CSM, Cron Job on Heroku",
+        "A mobile app and system allows customers Earn high value points and get access to exclusive member daily rewards, birthday rewards, stamp cards and promotions. I have worked as a Fullstack Technical Lead and Project Manager to build and maintain the Android and IOS app, CSM, Cron Job on Heroku",
       iosLink: "https://apps.apple.com/my/app/the-social-rewards/id1219993641",
       androidLink:
         "https://play.google.com/store/apps/details?id=asia.tsunago.thesocial",
@@ -110,9 +110,9 @@ export function useProject() {
       skills: ["Java", "Swift", "Sketch", "Rest API", "CMS", "Ruby on Rails"],
     },
     {
-      name: "AI solution for retails startup",
+      name: "AI solution for retail startup",
       description:
-        "an AI solution to capture customer's faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Lead role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
+        "An AI solution to capture customers faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Leader role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
       image: "tsunago.png",
       skills: [
         "VueJS",
@@ -127,7 +127,7 @@ export function useProject() {
     {
       name: "Axon Ivy Designer",
       description:
-        "a state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
+        "A state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
       image: "ivy-designer.png",
       liveLink: "https://developer.axonivy.com/",
       skills: ["Java Core", "Java EE", "Html"],
@@ -135,7 +135,7 @@ export function useProject() {
     {
       name: "Fintech Projects for Swiss Banks",
       description:
-        "Built Self Onboarding Process of several Swiss banks such as PostFinance, ABS. Integrated KYC as a third party API into web and mobile app for verification process of banking.",
+        "Built Self-Onboarding Process of several Swiss banks such as PostFinance, ABS. Integrated KYC as a third party API into the web and mobile app for the verification process of banking.",
       image: "postfinance.png",
       liveLink:
         "https://www.postfinance.ch/en/private/paying-saving/e-banking-apps/e-finance.html",

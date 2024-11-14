@@ -47,8 +47,8 @@
             mobile development.
           </p>
           <p>
-            With my passion about coding, learning with a growth mindset, deep
-            understanding of SCRUM and ability to work independently or team
+            With my passion about coding, learning with a growth mindset, a deep
+            understanding of SCRUM and the ability to work independently or team
             work, I can quickly adapt to any new working environment.
           </p>
         </div>
