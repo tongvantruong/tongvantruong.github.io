@@ -21,7 +21,7 @@
 import { ButtonDarkMode, TopBarItem } from "#components";
 
 const topBarItems = [
-  { label: "Home", to: "/" },
+  { label: "Home", to: "/#home" },
   { label: "About", to: "#about" },
   { label: "Projects", to: "#project" },
   { label: "Contact", to: "#contact" },
