@@ -49,11 +49,11 @@
         <div class="flex flex-col items-center justify-center gap-4 md:w-1/2">
           <img class="h-40" src="/assets/images/person.svg" alt="Person" />
           <p>
-            Experienced front end engineer with over 10 years of experience in
-            software development, skilled in VueJS, NuxtJS, NodeJS, TypeScript,
-            Clean Code, Testing including unit test with Jest, integration/e2e
-            test with Cypress, TDD and all other tech stacks related to web and
-            mobile development.
+            Highly skilled front end engineer with over 10 years of experience
+            in software development, skilled in VueJS, NuxtJS, NodeJS,
+            TypeScript, Clean Code, Testing including unit test with Jest,
+            integration/e2e test with Cypress, TDD and all other tech stacks
+            related to web and mobile development.
           </p>
           <p>
             With my passion about coding, learning with a growth mindset, a deep
