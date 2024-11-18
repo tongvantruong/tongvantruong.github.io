@@ -77,10 +77,20 @@ export function useProject() {
     {
       name: "Video Downloader and Editor",
       description:
-        "A private web tool allows me to download videos from a Chinese video site, bilibili. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
+        "A private web tool allows me to download videos from a Chinese streaming sites. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
-      skills: ["NodeJS", "Express", "EJS", "SSR", "ffmpeg"],
+      skills: [
+        "NodeJS",
+        "JavaScript",
+        "Jquery",
+        "AJAX",
+        "Express",
+        "EJS",
+        "SSR",
+        "ffmpeg",
+        "TailwindCSS",
+      ],
     },
     {
       name: "Isetan KL Rewards App",
