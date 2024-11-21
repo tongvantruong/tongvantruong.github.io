@@ -80,6 +80,7 @@ export function useProject() {
         "A private web tool allows me to download videos from a Chinese streaming sites. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
+      image: "downloader.jpg",
       skills: [
         "NodeJS",
         "JavaScript",
