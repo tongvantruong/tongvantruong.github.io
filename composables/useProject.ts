@@ -36,7 +36,7 @@ export function useProject() {
     {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
-        "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'compasables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
+        "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'composables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
       liveLink: "https://tongvantruong.github.io/",
       repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
@@ -77,7 +77,7 @@ export function useProject() {
     {
       name: "Video Downloader and Editor",
       description:
-        "A private web tool allows me to download videos from a Chinese streaming sites. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
+        "A private web tool allows me to download videos from Chinese streaming sites. It also supports cutting video files or joining the files into one. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
       repoLink: "",
       image: "downloader.jpg",
