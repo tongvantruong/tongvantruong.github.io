@@ -121,6 +121,17 @@ export function useProject() {
       skills: ["Java", "Swift", "Sketch", "Rest API", "CMS", "Ruby on Rails"],
     },
     {
+      name: "Flutter Web Responsive Layout",
+      description:
+        "A small project to build a responsive website template with Flutter",
+      liveLink:
+        "https://tongvantruong.github.io/flutter-web-responsive-layout.github.io/",
+      repoLink:
+        "https://github.com/tongvantruong/flutter_web_responsive_layout",
+      image: "flutterweb.jpg",
+      skills: ["Flutter", "Dart"],
+    },
+    {
       name: "AI solution for retail startup",
       description:
         "An AI solution to capture customers faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Leader role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
@@ -141,7 +152,7 @@ export function useProject() {
         "A state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
       image: "ivy-designer.png",
       liveLink: "https://developer.axonivy.com/",
-      skills: ["Java Core", "Java EE", "HTML"],
+      skills: ["Java Core", "JavaEE", "HTML"],
     },
     {
       name: "Fintech Projects for Swiss Banks",
