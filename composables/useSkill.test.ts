@@ -6,7 +6,7 @@ it("should have 16 skills", () => {
   expect(skills.length).toBe(16);
 });
 
-it("should have name and icon attributes", () => {
+it("should include name and icon attributes", () => {
   const { skills } = useSkill();
   expectTypeOf(skills[0]).toEqualTypeOf<{ name: string; icon: string }>;
 });

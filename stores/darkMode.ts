@@ -4,14 +4,10 @@ type DarkMode = "dark" | "light";
 
 export const darkModeStore = createGlobalState(() => {
   const storage = useStorage<DarkMode>("tvt:DarkMode", "dark");
+  const darkMode = ref(storage.value);
 
-  const darkMode = computed({
-    get(): DarkMode {
-      return storage.value;
-    },
-    set(value: DarkMode) {
-      storage.value = value;
-    },
+  watch(darkMode, (newValue) => {
+    storage.value = newValue;
   });
 
   return { darkMode };
