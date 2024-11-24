@@ -121,6 +121,17 @@ export function useProject() {
       skills: ["Java", "Swift", "Sketch", "Rest API", "CMS", "Ruby on Rails"],
     },
     {
+      name: "Flutter Web Responsive Layout",
+      description:
+        "A small project to build a responsive website template with Flutter",
+      liveLink:
+        "https://tongvantruong.github.io/flutter-web-responsive-layout.github.io/",
+      repoLink:
+        "https://github.com/tongvantruong/flutter_web_responsive_layout",
+      image: "flutterweb.jpg",
+      skills: ["Flutter", "Dart"],
+    },
+    {
       name: "AI solution for retail startup",
       description:
         "An AI solution to capture customers faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Leader role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
