@@ -18,6 +18,9 @@ export function useSkill() {
     { name: "Cassandra", icon: "cassandra" },
     { name: "Postgresql", icon: "postgresql" },
     { name: "ReactJS", icon: "react" },
+    { name: "WebSocket", icon: "websocket" },
+    { name: "Socket.io", icon: "socket-dot-io" },
+    { name: "Wordpress", icon: "wordpress" },
   ].sort(() => Math.random() - 0.5);
 
   return { skills };

@@ -1,9 +1,9 @@
 import { expect, expectTypeOf, it } from "vitest";
 import { useProject } from "./useProject";
 
-it("should have 10 projects", () => {
+it("should have 13 projects", () => {
   const { projects } = useProject();
-  expect(projects.length).toBe(12);
+  expect(projects.length).toBe(13);
 });
 
 it("should include correct attributes", () => {

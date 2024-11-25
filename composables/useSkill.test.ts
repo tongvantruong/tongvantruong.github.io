@@ -1,9 +1,9 @@
 import { it, expect, expectTypeOf } from "vitest";
 import { useSkill } from "./useSkill";
 
-it("should have 16 skills", () => {
+it("should have 19 skills", () => {
   const { skills } = useSkill();
-  expect(skills.length).toBe(16);
+  expect(skills.length).toBe(19);
 });
 
 it("should include name and icon attributes", () => {
