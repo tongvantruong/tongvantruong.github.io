@@ -51,9 +51,10 @@
           <p>
             Highly skilled front end engineer with over 10 years of experience
             in software development, skilled in VueJS, NuxtJS, NodeJS,
-            TypeScript, Clean Code, Testing including unit test with Jest,
-            integration/e2e test with Cypress, TDD and all other tech stacks
-            related to web and mobile development.
+            TypeScript, ReactJS, Socket.IO, SCSS, TailwindCSS, Clean Code,
+            Testing including unit test with Jest/Vitest, integration/e2e test
+            with Cypress, TDD and all other tech stacks related to web and
+            mobile development.
           </p>
           <p>
             With my passion about coding, learning with a growth mindset, a deep
