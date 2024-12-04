@@ -45,7 +45,7 @@ export function useProject() {
     {
       name: "TOEIC Practice App",
       description:
-        "A mobile app for learning English which was available on both IOS and Android with over 200K downloads. Tech stacks: Swift for IOS, Kotlin for Android",
+        "(200k+ Downloads) A mobile app for learning English which was available on both IOS and Android with over 200K downloads. Tech stacks: Swift for IOS, Kotlin for Android",
       iosLink:
         "https://apps.apple.com/vn/app/new-practice-for-toeic-test/id1462727474?platform=iphone",
       androidLink:
@@ -56,7 +56,7 @@ export function useProject() {
     {
       name: "TOEIC Vocabulary App",
       description:
-        "A mobile app for learning English which was available on both IOS and Android with over 20K downloads. In this app, I have created many kinds of games so users can learn by enjoying the games! Other than the mobile's tech stacks, I have used JavaScript to build Flappy Bird and Snack 2D games which will be embedded into mobile apps",
+        "(20k+ Downloads) A mobile app for learning English which was available on both IOS and Android with over 20K downloads. In this app, I have created many kinds of games so users can learn by enjoying the games! Other than the mobile's tech stacks, I have used JavaScript to build Flappy Bird and Snack 2D games which will be embedded into mobile apps",
       iosLink:
         "https://apps.apple.com/vn/app/new-vocabulary-for-toeic-test/id1475873881?platform=iphone",
       androidLink: "--DEAD--",
@@ -66,7 +66,7 @@ export function useProject() {
     {
       name: "Crack The Code App",
       description:
-        "An Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other people.",
+        "(20k+ Downloads) An Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other people.",
       iosLink:
         "https://apps.apple.com/vn/app/crack-the-code-pro/id1510109064?platform=iphone",
       androidLink:
