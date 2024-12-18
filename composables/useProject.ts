@@ -78,7 +78,7 @@ export function useProject() {
       name: "Video Downloader and Editor",
       description:
         "A private web tool allows me to download videos from Chinese streaming sites, cut or join video files and rename/delete multiple files based on conditions. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function as well as using 'fs', 'path' module to work with files. The server will update progress of downloading to client by using Websocket, Socket.io",
-      liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/",
+      liveLink: "",
       repoLink: "",
       image: "downloader.jpg",
       skills: [
