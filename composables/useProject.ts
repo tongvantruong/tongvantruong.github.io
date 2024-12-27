@@ -34,6 +34,24 @@ export function useProject() {
       skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
     },
     {
+      name: "MoList - Movie Listing App",
+      description:
+        "A simple movie listing app which will call to mock API to fetch the list of movies and display on a responsive web ap with pagination. Users can search the movies by title and click to star movies then they will appear on the Favorites section.",
+      liveLink: "https://molist.netlify.app/",
+      repoLink: "https://github.com/tongvantruong/movie-list",
+      image: "molist.webp",
+      skills: [
+        "VueJS",
+        "Vuetify",
+        "TypeScript",
+        "axios",
+        "VueUse",
+        "vite",
+        "cypress",
+        "vitest",
+      ],
+    },
+    {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
         "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'composables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
