@@ -36,7 +36,7 @@ export function useProject() {
     {
       name: "MoList - Movie Listing App",
       description:
-        "A simple movie listing app which will call to mock API to fetch the list of movies and display on a responsive web ap with pagination. Users can search the movies by title and click to star movies then they will appear on the Favorites section.",
+        "A movie listing app which will call to a mock API to fetch the list of movies and display them on a responsive web app with pagination. Users can search the movies by title and click to star movies then they will appear on the Favorites section.",
       liveLink: "https://molist.netlify.app/",
       repoLink: "https://github.com/tongvantruong/movie-list",
       image: "molist.webp",
@@ -44,11 +44,14 @@ export function useProject() {
         "VueJS",
         "Vuetify",
         "TypeScript",
+        "Vue Router",
         "axios",
         "VueUse",
         "vite",
         "cypress",
         "vitest",
+        "searching",
+        "pagination",
       ],
     },
     {
