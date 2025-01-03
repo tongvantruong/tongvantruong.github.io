@@ -55,13 +55,30 @@ export function useProject() {
       ],
     },
     {
+      name: "Image Gallery - React & Ant Design",
+      description:
+        "A responsive Image Gallery app which calls APIs to fetch images by chunks then allow users to search by typing on an input. When scrolling down, more images will be loaded",
+      liveLink: "https://react-imgallery.netlify.app",
+      repoLink: "https://github.com/tongvantruong/image-gallery",
+      image: "image-gallery.webp",
+      skills: [
+        "ReactJS",
+        "Ant Design",
+        "TypeScript",
+        "vitest",
+        "vite",
+        "searching",
+        "Infinite Scroll",
+      ],
+    },
+    {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
         "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'composables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
       liveLink: "https://tongvantruong.github.io/",
       repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
-      skills: ["Nuxt3", "TailwindCSS", "Vite", "VueJS", "Github Pages"],
+      skills: ["Nuxt3", "TailwindCSS", "vite", "VueJS", "Github Pages"],
     },
     {
       name: "TOEIC Practice App",
