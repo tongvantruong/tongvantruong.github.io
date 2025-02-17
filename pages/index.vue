@@ -49,17 +49,17 @@
         <div class="flex flex-col items-center justify-center gap-4 md:w-1/2">
           <img class="h-40" src="/assets/images/person.svg" alt="Person" />
           <p>
-            Highly skilled front end engineer with over 10 years of experience
-            in software development, skilled in VueJS, NuxtJS, NodeJS,
-            TypeScript, ReactJS, Socket.IO, SCSS, TailwindCSS, Clean Code,
-            Testing including unit test with Jest/Vitest, integration/e2e test
-            with Cypress, TDD and all other tech stacks related to web and
-            mobile development.
+            Experienced front-end engineer with over 10 years of expertise in
+            developing high-quality, scalable software solutions. Skilled in
+            VueJS, ReactJS, TypeScript, SCSS, and TailwindCSS, with a commitment
+            to Clean Code, TDD, and Agile practices. Demonstrated leadership in
+            managing teams, delivering impactful projects, and driving
+            user-centered designs.
           </p>
           <p>
             With my passion about coding, learning with a growth mindset, a deep
             understanding of SCRUM and the ability to work independently or team
-            work, I can quickly adapt to any new working environment.
+            work, I can quickly adapt to any working environment.
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-2 md:w-1/2">
@@ -101,7 +101,7 @@
         work, have collaboration ideas, or are interested in hiring me for a
         project, don't hesitate to reach out.
       </p>
-      <div class="flex flex-col justify-center gap-4 py-4 md:flex-row">
+      <div class="hidden flex-col justify-center gap-4 py-4 md:flex-row">
         <Tooltip hoveredText="Github">
           <NuxtLink
             to="https://github.com/tongvantruong"
