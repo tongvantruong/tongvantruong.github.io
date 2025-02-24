@@ -3,7 +3,7 @@ import { useProject } from "./useProject";
 
 it("should have 13 projects", () => {
   const { projects } = useProject();
-  expect(projects.length).toBe(15);
+  expect(projects.length).toBe(16);
 });
 
 it("should include correct attributes", () => {
