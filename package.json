@@ -33,8 +33,5 @@
     "prettier-plugin-tailwindcss": "^0.6.8",
     "unplugin-auto-import": "^0.18.5",
     "vitest": "^2.1.5"
-  },
-  "volta": {
-    "node": "22.14.0"
   }
 }

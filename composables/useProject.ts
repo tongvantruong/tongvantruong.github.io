@@ -55,6 +55,15 @@ export function useProject() {
       ],
     },
     {
+      name: "Responsive Landing Page - HTML, CSS & JavaScript",
+      description:
+        "A responsive landing page that works perfectly on all devices such as Desktop, Tablet, Mobile Phone",
+      liveLink: "https://responsive-web-truongtong.netlify.app",
+      repoLink: "https://github.com/tongvantruong/responsive-landing-page",
+      image: "responsive-web.webp",
+      skills: ["HTML", "CSS", "JavaScript"],
+    },
+    {
       name: "Image Gallery - React & Ant Design",
       description:
         "A responsive Image Gallery app which calls APIs to fetch images by chunks then allow users to search by typing on an input. When scrolling down, more images will be loaded",
