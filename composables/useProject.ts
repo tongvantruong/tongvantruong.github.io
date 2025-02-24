@@ -55,9 +55,9 @@ export function useProject() {
       ],
     },
     {
-      name: "Responsive Landing Page - HTML, CSS & JavaScript",
+      name: "Responsive Landing Page - Figma to HTML, CSS & JavaScript",
       description:
-        "A responsive landing page that works perfectly on all devices such as Desktop, Tablet, Mobile Phone",
+        "A responsive landing page that is converted from Figma design and works perfectly on all devices such as Desktop, Tablet, Mobile Phone",
       liveLink: "https://responsive-web-truongtong.netlify.app",
       repoLink: "https://github.com/tongvantruong/responsive-landing-page",
       image: "responsive-web.webp",
