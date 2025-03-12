@@ -49,17 +49,22 @@
         <div class="flex flex-col items-center justify-center gap-4 md:w-1/2">
           <img class="h-40" src="/assets/images/person.svg" alt="Person" />
           <p>
-            Experienced front-end engineer with over 10 years of expertise in
-            developing high-quality, scalable software solutions. Skilled in
-            VueJS, ReactJS, TypeScript, SCSS, and TailwindCSS, with a commitment
-            to Clean Code, TDD, and Agile practices. Demonstrated leadership in
-            managing teams, delivering impactful projects, and driving
-            user-centered designs.
+            Senior Front-End Engineer with
+            <b>10+ years</b> of experience building high-quality, scalable
+            software solutions. Expertise in <b>VueJS</b>, <b>ReactJS</b>,
+            <b>TypeScript</b>, <b>SCSS</b>, and <b>TailwindCSS</b>, with a
+            strong commitment to <b>Clean Code</b>, <b>TDD</b>, and
+            <b>Agile</b> methodologies. Hands-on experience in
+            <b>backend development</b> (NodeJS, Python, Django, Ruby on Rails),
+            <b>API integrations</b>, and <b>DevOps</b>. Proven leadership in
+            managing teams, migrating legacy systems, and delivering
+            pixel-perfect, high-performance applications.
           </p>
           <p>
-            With my passion about coding, learning with a growth mindset, a deep
-            understanding of SCRUM and the ability to work independently or team
-            work, I can quickly adapt to any working environment.
+            With my passion for coding, commitment to learning with a growth
+            mindset, deep understanding of SCRUM, and ability to work
+            independently or in a team, I can quickly adapt to any working
+            environment, especially in a fast-growing startup.
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-2 md:w-1/2">
