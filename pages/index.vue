@@ -28,10 +28,10 @@
         with
         <span
           class="to bg-gradient-to-r from-yellow-500 to-red-500 bg-clip-text font-extrabold tracking-wide text-transparent"
-          >over 10 years</span
+          >over 12 years</span
         >
         of experience<span class="hidden md:inline"
-          >, skilled in TypeScript, VueJS, NuxtJS</span
+          >, skilled in TypeScript, VueJS, ReactJS, NodeJS</span
         >
       </h1>
       <ButtonDown
@@ -49,22 +49,13 @@
         <div class="flex flex-col items-center justify-center gap-4 md:w-1/2">
           <img class="h-40" src="/assets/images/person.svg" alt="Person" />
           <p>
-            Senior Front-End Engineer with
-            <b>10+ years</b> of experience building high-quality, scalable
-            software solutions. Expertise in <b>VueJS</b>, <b>ReactJS</b>,
-            <b>TypeScript</b>, <b>SCSS</b>, and <b>TailwindCSS</b>, with a
-            strong commitment to <b>Clean Code</b>, <b>TDD</b>, and
-            <b>Agile</b> methodologies. Hands-on experience in
-            <b>backend development</b> (NodeJS, Python, Django, Ruby on Rails),
-            <b>API integrations</b>, and <b>DevOps</b>. Proven leadership in
-            managing teams, migrating legacy systems, and delivering
-            pixel-perfect, high-performance applications.
+            Senior Frontend Developer with <b>12+ years of software engineering experience</b>, specializing in scalable, high-performance web applications.
           </p>
           <p>
-            With my passion for coding, commitment to learning with a growth
-            mindset, deep understanding of SCRUM, and ability to work
-            independently or in a team, I can quickly adapt to any working
-            environment, especially in a fast-growing startup.
+            Expert in <b>Vue.js 2/3, React.js, TypeScript, JavaScript, SCSS, SASS, TailwindCSS, Bootstrap, and Vuetify</b>, with strong experience in frontend architecture, legacy modernization, API integration, testing, and real-time web applications
+          </p>
+          <p>
+            Built and maintained <b>large-scale SaaS products serving nearly 2 million total users worldwide</b>, collaborating closely with Product, Design, QA, and Backend teams. Experienced with <b>Clean Code, TDD, Agile/Scrum, code review, and AI-assisted development using Cursor</b>.
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-2 md:w-1/2">
@@ -106,7 +97,7 @@
         work, have collaboration ideas, or are interested in hiring me for a
         project, don't hesitate to reach out.
       </p>
-      <div class="hidden flex-col justify-center gap-4 py-4 md:flex-row">
+      <div class="flex-col justify-center gap-4 py-4 md:flex-row">
         <Tooltip hoveredText="Github">
           <NuxtLink
             to="https://github.com/tongvantruong"

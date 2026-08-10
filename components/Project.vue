@@ -26,9 +26,7 @@
       :class="{ 'md:-left-24': isLtr, 'md:-right-24': !isLtr }"
     >
       <h2 class="text-3xl">{{ name }}</h2>
-      <p class="md:line-clamp-[10]">
-        {{ description }}
-      </p>
+      <p class="md:line-clamp-[10]" v-html="description" />
       <div
         v-if="skills"
         class="mt-1 flex flex-wrap justify-center gap-1 md:justify-start"

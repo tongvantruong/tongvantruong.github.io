@@ -5,7 +5,7 @@ export function useProject() {
     {
       name: "USERGRAM",
       description:
-        "a Japanese cloud service that captures user behaviors in web apps or mobile phones to help clients analyze and improve UI/UX. With almost 5 years, mainly working in front end code helped me gain a lot of knowledge about Vue3 and Composition API, VueX for state management, Vue Router, Storybook, TypeScript Advanced Utility Types as well as latest JavaScript build tools and Node Package Manager like Vite, pnpm. Beside that, I have also experienced with Redash, Terraform, Micro Services, Docker Compose, Kubernetes and some AWS services such as AWS CloudFront, API Gateway, Lambda function",
+        "A Japanese cloud service that captures user behavior across web and mobile applications to help clients analyze and improve UI/UX. Over nearly 5 years, I primarily focused on frontend development, gaining strong experience with Vue 3, Composition API, Vuex, Vue Router, Storybook, TypeScript, Vite, and pnpm. I also worked with Redash, Terraform, microservices, Docker Compose, Kubernetes, and AWS services including CloudFront, API Gateway, and Lambda.",
       liveLink: "https://www.bebit.co.jp/services/ux-ops/usergram/#MOVIEW",
       image: "usergram.jpg",
       skills: [
@@ -28,7 +28,7 @@ export function useProject() {
     {
       name: "OMNISEGMENT",
       description:
-        "A Japanese Customer Data Platform provides 360° customer profile view to empower brands in delivering personalized customer experiences at scale. I have been co-operated with a Taiwan team to implement new features for Admin dashboard by using ReactJS, Ant Design, JavaScript",
+        "A Japanese Customer Data Platform that provides a 360° view of customer profiles, enabling brands to deliver personalized customer experiences at scale. I collaborated with a Taiwan-based team to implement new features for the Admin Dashboard using ReactJS, Ant Design, and JavaScript.",
       liveLink: "https://www.bebit-tech.com/en/omnisegment",
       image: "os.png",
       skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
@@ -36,7 +36,7 @@ export function useProject() {
     {
       name: "MoList - Movie Listing App",
       description:
-        "A movie listing app which will call to a mock API to fetch the list of movies and display them on a responsive web app with pagination. Users can search the movies by title and click to star movies then they will appear on the Favorites section.",
+        "A movie listing app that fetches movie data from a mock API and displays it in a responsive interface with pagination. Users can search movies by title and mark their favorite movies by clicking the star icon, with selected movies displayed in a dedicated Favorites section.",
       liveLink: "https://molist.netlify.app/",
       repoLink: "https://github.com/tongvantruong/movie-list",
       image: "molist.webp",
@@ -57,7 +57,7 @@ export function useProject() {
     {
       name: "Responsive Landing Page - Figma to HTML, CSS & JavaScript",
       description:
-        "A responsive landing page that is converted from Figma design and works perfectly on all devices such as Desktop, Tablet, Mobile Phone",
+        "A responsive landing page converted from a Figma design, optimized to deliver a consistent and pixel-perfect experience across desktop, tablet, and mobile devices.",
       liveLink: "https://responsive-web-truongtong.netlify.app",
       repoLink: "https://github.com/tongvantruong/responsive-landing-page",
       image: "responsive-web.webp",
@@ -66,7 +66,7 @@ export function useProject() {
     {
       name: "Image Gallery - React & Ant Design",
       description:
-        "A responsive Image Gallery app which calls APIs to fetch images by chunks then allow users to search by typing on an input. When scrolling down, more images will be loaded",
+        "A responsive image gallery app that fetches images from an API in batches and displays them in a dynamic grid. Users can search for images by keyword, while infinite scrolling automatically loads more images as they scroll down.",
       liveLink: "https://react-imgallery.netlify.app",
       repoLink: "https://github.com/tongvantruong/image-gallery",
       image: "image-gallery.webp",
@@ -83,7 +83,7 @@ export function useProject() {
     {
       name: "NuxtJS & TailwindCSS Portfolio",
       description:
-        "A responsive web app that showcases my experience. By taking advantages of the well-organized structure in NuxtJS such as automatic routing using 'pages', auto import from 'components', 'composables', etc. and the utility-first CSS framework, TailwindCSS, I could create the project faster and easier.",
+        "A responsive portfolio web app showcasing my experience and projects. Built with NuxtJS and TailwindCSS, it takes advantage of Nuxt's auto-routing and auto-import features for pages, components, and composables, enabling a clean project structure and faster development.",
       liveLink: "https://tongvantruong.github.io/",
       repoLink: "https://github.com/tongvantruong/tongvantruong.github.io",
       image: "portfolio.png",
@@ -92,7 +92,7 @@ export function useProject() {
     {
       name: "TOEIC Practice App",
       description:
-        "(200k+ Downloads) A mobile app for learning English which was available on both IOS and Android with over 200K downloads. Tech stacks: Swift for IOS, Kotlin for Android",
+        "<b>(200K+ Downloads)</b> A mobile English-learning app available on both iOS and Android, with over 200K downloads. Built using Swift for iOS and Kotlin for Android.",
       iosLink:
         "https://apps.apple.com/vn/app/new-practice-for-toeic-test/id1462727474?platform=iphone",
       androidLink:
@@ -103,7 +103,7 @@ export function useProject() {
     {
       name: "TOEIC Vocabulary App",
       description:
-        "(20k+ Downloads) A mobile app for learning English which was available on both IOS and Android with over 20K downloads. In this app, I have created many kinds of games so users can learn by enjoying the games! Other than the mobile's tech stacks, I have used JavaScript to build Flappy Bird and Snack 2D games which will be embedded into mobile apps",
+        "<b>(20K+ Downloads)</b> A mobile English-learning app available on both iOS and Android, with over 20K downloads. The app features a variety of interactive games that make learning English more engaging and enjoyable. In addition to the mobile technologies, I used JavaScript to build 2D games such as Flappy Bird and Snake, which were embedded into the mobile applications.",
       iosLink:
         "https://apps.apple.com/vn/app/new-vocabulary-for-toeic-test/id1475873881?platform=iphone",
       androidLink: "--DEAD--",
@@ -113,7 +113,7 @@ export function useProject() {
     {
       name: "Crack The Code App",
       description:
-        "(20k+ Downloads) An Endless Puzzle game that challenges you to find 2 to 5 Correct Numbers from limited numbers of Riddle to unlock the Key. The app was built by Flutter for both IOS and Android. The game included achievements and leaderboards so players can compete with all other people.",
+        "<b>(20K+ Downloads)</b> An endless puzzle game that challenges players to find 2 to 5 correct numbers from a limited set of riddles to unlock the key. Built with Flutter for both iOS and Android, the game features achievements and leaderboards, allowing players to compete with others worldwide.",
       iosLink:
         "https://apps.apple.com/vn/app/crack-the-code-pro/id1510109064?platform=iphone",
       androidLink:
@@ -124,7 +124,7 @@ export function useProject() {
     {
       name: "Video Downloader and Editor",
       description:
-        "A private web tool allows me to download videos from Chinese streaming sites, cut or join video files and rename/delete multiple files based on conditions. The SSR web app was built by NodeJS, Express and EJS view engine. The server will execute command lines asynchronously by using NodeJS child_process spawn function as well as using 'fs', 'path' module to work with files. The server will update progress of downloading to client by using Websocket, Socket.io",
+        "A private web tool for downloading videos from Chinese streaming platforms, cutting and joining video files, and batch-renaming or deleting files based on custom conditions. Built as a server-side rendered application using Node.js, Express, and EJS. The server executes asynchronous command-line processes with Node.js `child_process.spawn` and manages files using the `fs` and `path` modules. Real-time download progress is delivered to the client through WebSocket using Socket.IO.",
       liveLink: "",
       repoLink: "",
       image: "downloader.jpg",
@@ -145,7 +145,7 @@ export function useProject() {
     {
       name: "Isetan KL Rewards App",
       description:
-        "A Malaysian mobile app and system helps customers collect points on their purchases and convert into e-coupon for a seamless shopping experience. I have had a great time to build and maintain the beautiful Android and IOS app from the draft requirements of the founder and given Sketch using Kotlin, Swift; as well as building Rest API, CMS, Landing page",
+        "A Malaysian mobile and web platform that helps customers earn points from purchases and redeem them as e-coupons for a seamless shopping experience. I worked closely with the founder to transform draft requirements and Sketch designs into polished Android and iOS applications using Kotlin and Swift. I also developed the REST APIs, CMS, and landing page supporting the platform.",
       liveLink: "https://www.isetankl.com.my/isetan-app/",
       image: "isetan.png",
       skills: [
@@ -162,7 +162,7 @@ export function useProject() {
     {
       name: "The Social Rewards App",
       description:
-        "A mobile app and system allows customers Earn high value points and get access to exclusive member daily rewards, birthday rewards, stamp cards and promotions. I have worked as a Fullstack Technical Lead and Project Manager to build and maintain the Android and IOS app, CSM, Cron Job on Heroku",
+        "A mobile app and loyalty platform that enables customers to earn high-value points and access exclusive daily rewards, birthday rewards, stamp cards, and promotions. I worked as a Full-Stack Technical Lead and Project Manager, leading the development and maintenance of the Android and iOS applications, CMS, and scheduled cron jobs running on Heroku.",
       iosLink: "https://apps.apple.com/my/app/the-social-rewards/id1219993641",
       androidLink:
         "https://play.google.com/store/apps/details?id=asia.tsunago.thesocial",
@@ -172,7 +172,7 @@ export function useProject() {
     {
       name: "Flutter Web Responsive Layout",
       description:
-        "A small project to build a responsive website template with Flutter",
+        "A small project to build a responsive website template using Flutter, designed to provide a consistent and adaptable experience across desktop, tablet, and mobile devices.",
       liveLink:
         "https://tongvantruong.github.io/flutter-web-responsive-layout.github.io/",
       repoLink:
@@ -183,7 +183,7 @@ export function useProject() {
     {
       name: "AI solution for retail startup",
       description:
-        "An AI solution to capture customers faces using cameras inside shopping mall areas to help analyze customer behaviors. I was playing Technical Leader role and onside in Malaysia for about 6 months to setup the product. Status: startup exit",
+        "An AI solution that uses cameras in shopping malls to capture customer faces and analyze customer behavior. I worked as a Technical Leader, spending approximately 6 months on-site in Malaysia to help set up and launch the product. Status: Startup exit.",
       image: "tsunago.png",
       skills: [
         "VueJS",
@@ -198,7 +198,7 @@ export function useProject() {
     {
       name: "Axon Ivy Designer",
       description:
-        "A state of the art process modelling tool that enables you to turn your business processes into real and fully functional web applications. It is an IDE built on top of Elise using Java EE and other Java related tech stacks. I have contributed to a part of this tool to develop HTML Editor and Rule Engine",
+        "A state-of-the-art process modeling tool that enables businesses to transform their processes into fully functional web applications. Built as an IDE on top of Elise using Java EE and related Java technologies. I contributed to the development of the HTML Editor and Rule Engine.",
       image: "ivy-designer.png",
       liveLink: "https://developer.axonivy.com/",
       skills: ["Java Core", "JavaEE", "HTML"],
@@ -206,7 +206,7 @@ export function useProject() {
     {
       name: "Fintech Projects for Swiss Banks",
       description:
-        "Built Self-Onboarding Process of several Swiss banks such as PostFinance, ABS. Integrated KYC as a third party API into the web and mobile app for the verification process of banking.",
+        "Developed self-onboarding processes for several Swiss banks, including PostFinance and ABS. Integrated third-party KYC APIs into web and mobile applications to support secure customer identity verification during the banking onboarding process.",
       image: "postfinance.png",
       liveLink:
         "https://www.postfinance.ch/en/private/paying-saving/e-banking-apps/e-finance.html",
