@@ -55,6 +55,9 @@
             Expert in <b>Vue.js 2/3, React.js, TypeScript, JavaScript, SCSS, SASS, TailwindCSS, Bootstrap, and Vuetify</b>, with strong experience in frontend architecture, legacy modernization, API integration, testing, and real-time web applications
           </p>
           <p>
+            Hands-on experience building and integrating <b>REST APIs and backend services</b> using Node.js, Python, Django, Ruby on Rails, Java, and .NET, with a solid understanding of databases and cloud infrastructure.
+          </p>
+          <p>
             Built and maintained <b>large-scale SaaS products serving nearly 2 million total users worldwide</b>, collaborating closely with Product, Design, QA, and Backend teams. Experienced with <b>Clean Code, TDD, Agile/Scrum, code review, and AI-assisted development using Cursor</b>.
           </p>
         </div>
