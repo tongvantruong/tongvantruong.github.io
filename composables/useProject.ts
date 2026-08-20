@@ -34,6 +34,27 @@ export function useProject() {
       skills: ["ReactJS", "Ant Design", "JavaScript", "Jinja", "Figma"],
     },
     {
+      name: "Bilibili Downloader",
+      description:
+        "A personal side project to showcase full-stack and DevOps engineering: paste a Bilibili video URL and watch real-time download progress in the browser. A FastAPI backend validates the URL, runs the Lux CLI as a background subprocess, and streams progress to a React frontend over a WebSocket, while PostgreSQL persists the job as the durable source of truth. Containerized with Docker Compose for local development, with GitHub Actions CI/CD auto-deploying the frontend, backend, and database to the free tiers of Netlify, Render, and Neon on every push to main.",
+      liveLink: "https://bilibili-downloader.netlify.app/",
+      image: "bilibili-downloader.png",
+      skills: [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "React",
+        "TypeScript",
+        "Vite",
+        "WebSocket",
+        "Docker Compose",
+        "GitHub Actions",
+        "CI/CD",
+        "pytest",
+      ],
+    },
+    {
       name: "MoList - Movie Listing App",
       description:
         "A movie listing app that fetches movie data from a mock API and displays it in a responsive interface with pagination. Users can search movies by title and mark their favorite movies by clicking the star icon, with selected movies displayed in a dedicated Favorites section.",
