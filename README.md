@@ -1,5 +1,5 @@
 # My Portfolio built with Nuxt3 and TailwindCss
 
-Live at: https://tongvantruong.github.io
+Live at: https://truongtong.netlify.app
 
 
