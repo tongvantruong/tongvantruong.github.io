@@ -12,6 +12,8 @@ export function useSkill() {
     { name: "TailwindCSS", icon: "typescript" },
     { name: "Bootstrap", icon: "bootstrap" },
     { name: "Java", icon: "java" },
+    { name: "Python", icon: "python" },
+    { name: "Ruby on Rails", icon: "rails" },
     { name: "Flutter", icon: "flutter" },
     { name: "Kotlin", icon: "kotlin" },
     { name: "Swift", icon: "swift" },

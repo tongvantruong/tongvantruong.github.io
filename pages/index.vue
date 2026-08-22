@@ -22,7 +22,8 @@
           >Truong Tong</span
         >
         <br />-<br />
-        Sr. Front End Engineer
+        Senior Engineer specialized in Frontend Architectures with strong
+        Full-Stack experience
       </h2>
       <h1 class="z-10 text-4xl md:text-6xl">
         with
@@ -31,7 +32,7 @@
           >over 12 years</span
         >
         of experience<span class="hidden md:inline"
-          >, skilled in TypeScript, VueJS, ReactJS, NodeJS</span
+          >, skilled in TypeScript, VueJS, ReactJS, NodeJS, Python, Java</span
         >
       </h1>
       <ButtonDown
@@ -49,16 +50,16 @@
         <div class="flex flex-col items-center justify-center gap-4 md:w-1/2">
           <img class="h-40" src="/assets/images/person.svg" alt="Person" />
           <p>
-            Senior Frontend Developer with <b>12+ years of software engineering experience</b>, specializing in scalable, high-performance web applications.
+            I am a <b>Senior Software Engineer with 12+ years of experience</b>. My day-to-day focus is architecting massive frontend applications serving nearly <b>2 million users worldwide</b>, building scalable, high-performance web applications.
           </p>
           <p>
             Expert in <b>Vue.js 2/3, React.js, TypeScript, JavaScript, SCSS, SASS, TailwindCSS, Bootstrap, and Vuetify</b>, with strong experience in frontend architecture, legacy modernization, API integration, testing, and real-time web applications
           </p>
           <p>
-            Hands-on experience building and integrating <b>REST APIs and backend services</b> using Node.js, Python, Django, Ruby on Rails, Java, and .NET, with a solid understanding of databases and cloud infrastructure.
+            I also have a deep background building <b>APIs and backend services</b> with Java, Python/Django/FastAPI, Node.js, and Ruby on Rails. I love working in bridge roles where I can connect clean user interfaces to reliable backend systems.
           </p>
           <p>
-            Built and maintained <b>large-scale SaaS products serving nearly 2 million total users worldwide</b>, collaborating closely with Product, Design, QA, and Backend teams. Experienced with <b>Clean Code, TDD, Agile/Scrum, code review, and AI-assisted development using Cursor</b>.
+            I work closely with Product, Design, QA, and Backend teams, and bring <b>Clean Code, TDD, Agile/Scrum, code review, and AI-assisted development using Cursor, Claude, Copilot</b> to every project.
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-2 md:w-1/2">
@@ -190,9 +191,9 @@
 
 <script setup lang="ts">
 import { ButtonDown, LazyHeading, NuxtLink, Tooltip } from "#components";
-const title = ref("Truong Tong - Sr. Front End Engineer");
+const title = ref("Truong Tong - Senior Engineer");
 const description = ref(
-  "Front End Engineer Portfolio built with Nuxt and TailwindCSS",
+  "Senior Engineer Portfolio built with Nuxt and TailwindCSS",
 );
 
 // This will be reactive when you change title/description above
